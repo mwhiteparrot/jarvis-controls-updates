@@ -1,6 +1,6 @@
 {
-  "apkUrl": "https://github.com/mwhiteparrot/jarvis-controls-updates/releases/download/v3.7.5/JarvisControls-v3.7.5.apk",
-  "notes": "Settings log scroll fix: the Updates log box and the Notification Rules box on the Settings screen now scroll properly \u2014 a drag inside either box scrolls the box, not the whole page, so you can read back through the log entries. Nothing else changed. Plus everything in 3.7.4 (Iron Man wallpaper theme, hero video removed, voice clips expire instead of playing late), 3.7.3, 3.7.2, 3.7.1, 3.7.0, 3.6.9, 3.6.8 and 3.6.7.",
-  "versionCode": 69,
-  "versionName": "3.7.5"
+  "apkUrl": "https://github.com/mwhiteparrot/jarvis-controls-updates/releases/download/v3.7.6/JarvisControls-v3.7.6.apk",
+  "notes": "Orb press-and-hold fix: holding the floating orb to jump back to the Muse app no longer turns into a drag when your finger drifts a little. The drag trigger is now properly scaled (12dp), small drift no longer cancels the hold, and only a clear move (40dp) before the half-second is up counts as a drag \u2014 while deciding, the orb stays pinned. Tap still toggles mute; drag-to-dismiss unchanged. Plus everything in 3.7.5 and earlier.",
+  "versionCode": 70,
+  "versionName": "3.7.6"
 }

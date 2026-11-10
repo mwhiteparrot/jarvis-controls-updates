@@ -1,6 +1,1 @@
-{
-  "apkUrl": "https://github.com/mwhiteparrot/jarvis-controls-updates/releases/download/v3.7.6/JarvisControls-v3.7.6.apk",
-  "notes": "Orb press-and-hold fix: holding the floating orb to jump back to the Muse app no longer turns into a drag when your finger drifts a little. The drag trigger is now properly scaled (12dp), small drift no longer cancels the hold, and only a clear move (40dp) before the half-second is up counts as a drag \u2014 while deciding, the orb stays pinned. Tap still toggles mute; drag-to-dismiss unchanged. Plus everything in 3.7.5 and earlier.",
-  "versionCode": 70,
-  "versionName": "3.7.6"
-}
+{"apkUrl":"https://github.com/mwhiteparrot/jarvis-controls-updates/releases/download/v3.7.7/JarvisControls-v3.7.7.apk","notes":"Car lock fix: the email signal behind the cloud car lock could stop silently \u2014 if the mail settings were finished after a lock request was already waiting, the request was never sent. The cycle now heals itself: a waiting request is picked up on its own within about a minute once the settings are complete, failed sends are retried every ~3 minutes (max 10) as before, and the app now records the last send error so a stuck lock is diagnosable. Plus everything in 3.7.6 and earlier.","versionCode":71,"versionName":"3.7.7"}
